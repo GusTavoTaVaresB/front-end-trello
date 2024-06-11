@@ -4,26 +4,12 @@ import uniLogo from "../assets/unilogo.svg";
 import { useNavigate } from "react-router-dom";
 import FTT from "../images/logoftt.png";
 
-
-export default function Header() {
-  const navigate = useNavigate();
+const Header = () => {
   return (
-    <>
-      <div className="header-container justify-between grid grid-cols-2 w-screen items-center shadow-md p-5">
-        <img
-          onClick={() => navigate("")}
-          className="logoftt"
-          src={medvetlogo}
-          alt="logo"
-        />
-
-        <div className="perfil-container flex justify-end items-center ">
-          <img src={FTT} alt="foto do usuario" className="ftt w-36 " />
-          <div className="uni-container flex w-1/4 justify-end">
-            <img src={uniLogo} alt="logo da universidade" />
-          </div>
-        </div>
-      </div>
-    </>
-  );
+    <nav className="w-full h-auto text-white bg-blue-600 lg:px-5 md:px-16 sm:px-5 px-12 py-4 shadow-md">
+      Workspace01
+    </nav>
+  )
 }
+export default Header
+
