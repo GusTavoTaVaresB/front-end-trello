@@ -1,8 +1,4 @@
-import medvetlogo from "../assets/tlogo.svg";
-import userLogo from "../assets/user.svg";
-import uniLogo from "../assets/unilogo.svg";
 import { useNavigate } from "react-router-dom";
-import FTT from "../images/logoftt.png";
 
 const Header = () => {
   return (
