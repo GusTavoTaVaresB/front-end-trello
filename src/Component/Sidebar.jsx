@@ -2,6 +2,7 @@ import React from 'react'
 import { GrProjects } from "react-icons/gr";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
+// sidebar
 const Sidebar = () => {
   return (
     <div className='flex items-start'>
