@@ -12,7 +12,7 @@ import {
 const Sidebar = () => {
 	const navLinks = [
 		{
-			title: "Home",
+			title: "Início",
 			icon: (
 				<HomeOutline
 					color="#555"
@@ -23,7 +23,7 @@ const Sidebar = () => {
 			active: false,
 		},
 		{
-			title: "Boards",
+			title: "Quadros",
 			icon: (
 				<AppsOutline
 					color="#555"
@@ -34,7 +34,7 @@ const Sidebar = () => {
 			active: true,
 		},
 		{
-			title: "Projects",
+			title: "Projetos",
 			icon: (
 				<GridOutline
 					color="#555"
@@ -45,7 +45,7 @@ const Sidebar = () => {
 			active: false,
 		},
 		{
-			title: "Analytics",
+			title: "Análise",
 			icon: (
 				<PieChartOutline
 					color="#555"
@@ -56,7 +56,7 @@ const Sidebar = () => {
 			active: false,
 		},
 		{
-			title: "Workflows",
+			title: "Membros",
 			icon: (
 				<PeopleOutline
 					color="#555"
@@ -67,7 +67,7 @@ const Sidebar = () => {
 			active: false,
 		},
 		{
-			title: "Notifications",
+			title: "Notificações",
 			icon: (
 				<NotificationsOutline
 					color="#555"
@@ -78,7 +78,7 @@ const Sidebar = () => {
 			active: false,
 		},
 		{
-			title: "Newsletter",
+			title: "Calendário",
 			icon: (
 				<NewspaperOutline
 					color="#555"
@@ -92,7 +92,7 @@ const Sidebar = () => {
 	return (
 		<div className="fixed left-0 top-0 md:w-[230px] w-[60px] overflow-hidden h-full flex flex-col">
 			<div className="w-full flex items-center md:justify-start justify-center md:pl-5 h-[70px] bg-[#fff]">
-				<span className="text-orange-400 font-semibold text-2xl md:block hidden">Logo.</span>
+				<span className="text-orange-400 font-semibold text-2xl md:block hidden">Trello</span>
 				<span className="text-orange-400 font-semibold text-2xl md:hidden block">L.</span>
 			</div>
 			<div className="w-full h-[calc(100vh-70px)] border-r flex flex-col md:items-start items-center gap-2 border-slate-300 bg-[#fff] py-5 md:px-3 px-3 relative">
@@ -111,7 +111,7 @@ const Sidebar = () => {
 				})}
 				<div className="flex absolute bottom-4 items-center md:justify-start justify-center gap-2 md:w-[90%] w-[70%] rounded-lg hover:bg-orange-300 px-2 py-3 cursor-pointer bg-gray-200">
 					<LogOutOutline />
-					<span className="font-medium text-[15px] md:block hidden">Log Out</span>
+					<span className="font-medium text-[15px] md:block hidden">Sair</span>
 				</div>
 			</div>
 		</div>

@@ -86,7 +86,7 @@ const AddModal = ({ isOpen, onClose, setOpen, handleAddTask }: AddModalProps) =>
 					name="title"
 					value={taskData.title}
 					onChange={handleChange}
-					placeholder="Title"
+					placeholder="Título"
 					className="w-full h-12 px-3 outline-none rounded-md bg-slate-100 border border-slate-300 text-sm font-medium"
 				/>
 				<input
@@ -94,7 +94,7 @@ const AddModal = ({ isOpen, onClose, setOpen, handleAddTask }: AddModalProps) =>
 					name="description"
 					value={taskData.description}
 					onChange={handleChange}
-					placeholder="Description"
+					placeholder="Descrição"
 					className="w-full h-12 px-3 outline-none rounded-md bg-slate-100 border border-slate-300 text-sm font-medium"
 				/>
 				<select
@@ -103,10 +103,10 @@ const AddModal = ({ isOpen, onClose, setOpen, handleAddTask }: AddModalProps) =>
 					value={taskData.priority}
 					className="w-full h-12 px-2 outline-none rounded-md bg-slate-100 border border-slate-300 text-sm"
 				>
-					<option value="">Priority</option>
-					<option value="low">Low</option>
-					<option value="medium">Medium</option>
-					<option value="high">High</option>
+					<option value="">Prioridade</option>
+					<option value="low">Baixa</option>
+					<option value="medium">Média</option>
+					<option value="high">Alta</option>
 				</select>
 				<input
 					type="number"
@@ -120,17 +120,17 @@ const AddModal = ({ isOpen, onClose, setOpen, handleAddTask }: AddModalProps) =>
 					type="text"
 					value={tagTitle}
 					onChange={(e) => setTagTitle(e.target.value)}
-					placeholder="Tag Title"
+					placeholder="Título da Tag"
 					className="w-full h-12 px-3 outline-none rounded-md bg-slate-100 border border-slate-300 text-sm"
 				/>
 				<button
 					className="w-full rounded-md h-9 bg-slate-500 text-amber-50 font-medium"
 					onClick={handleAddTag}
 				>
-					Add Tag
+					Adicionar Tag
 				</button>
 				<div className="w-full">
-					{taskData.tags && <span>Tags:</span>}
+					{taskData.tags && <span>Rótulo:</span>}
 					{taskData.tags.map((tag, index) => (
 						<div
 							key={index}
@@ -147,7 +147,7 @@ const AddModal = ({ isOpen, onClose, setOpen, handleAddTask }: AddModalProps) =>
 						name="alt"
 						value={taskData.alt}
 						onChange={handleChange}
-						placeholder="Image Alt"
+						placeholder="Nome da Imagem"
 						className="w-full h-12 px-3 outline-none rounded-md bg-slate-100 border border-slate-300 text-sm"
 					/>
 					<input
@@ -161,7 +161,7 @@ const AddModal = ({ isOpen, onClose, setOpen, handleAddTask }: AddModalProps) =>
 					className="w-full mt-3 rounded-md h-9 bg-orange-400 text-blue-50 font-medium"
 					onClick={handleSubmit}
 				>
-					Submit Task
+					Enviar
 				</button>
 			</div>
 		</div>

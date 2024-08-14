@@ -17,7 +17,7 @@ const Navbar = () => {
 					height={"28px"}
 				/>
 				<span className="text-orange-400 font-semibold md:text-lg text-sm whitespace-nowrap">
-					Board Name
+					Área de Trabalho
 				</span>
 				<ChevronDown
 					color="#fb923c"
@@ -29,7 +29,7 @@ const Navbar = () => {
 				<SearchOutline color={"#999"} />
 				<input
 					type="text"
-					placeholder="Search"
+					placeholder="Pesquisar"
 					className="w-full bg-gray-100 outline-none text-[15px]"
 				/>
 			</div>
