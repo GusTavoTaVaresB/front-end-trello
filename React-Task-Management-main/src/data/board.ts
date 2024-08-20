@@ -11,12 +11,10 @@ export const Board: Columns = {
 		items: [
 			{
 				id: uuidv4(),
-				title: "Admin Panel Front-end",
-				description: "Lorem ipsum dolor sit amet ..",
+				title: "Quadros",
+				description: "Quadros do site",
 				priority: "medium",
 				deadline: 50,
-				image: taskImage2,
-				alt: "task image",
 				tags: [
 					{ title: "Test", ...getRandomColors() },
 					{ title: "Front", ...getRandomColors() },
@@ -24,8 +22,30 @@ export const Board: Columns = {
 			},
 			{
 				id: uuidv4(),
-				title: "Admin Panel Back-end",
-				description: "Lorem ipsum dolor sit amet ..",
+				title: "Cartões",
+				description: "Cartões do Trello",
+				priority: "medium",
+				deadline: 50,
+				tags: [
+					{ title: "Test", ...getRandomColors() },
+					{ title: "Front", ...getRandomColors() },
+				],
+			},
+			{
+				id: uuidv4(),
+				title: "Usuários",
+				description: "Acesse a lista de usuários",
+				priority: "medium",
+				deadline: 50,
+				tags: [
+					{ title: "Test", ...getRandomColors() },
+					{ title: "Front", ...getRandomColors() },
+				],
+			},
+			{
+				id: uuidv4(),
+				title: "Integrações",
+				description: "Descrição",
 				priority: "low",
 				deadline: 50,
 				tags: [
@@ -40,8 +60,8 @@ export const Board: Columns = {
 		items: [
 			{
 				id: uuidv4(),
-				title: "Admin Panel Back-end",
-				description: "Lorem ipsum dolor sit amet ..",
+				title: "Tela inicial (Trello)",
+				description: "Acessar a tela inicial do site",
 				priority: "high",
 				deadline: 50,
 				tags: [
@@ -51,12 +71,21 @@ export const Board: Columns = {
 			},
 			{
 				id: uuidv4(),
-				title: "Admin Panel Front-end",
-				description: "Lorem ipsum dolor sit amet ..",
+				title: "Validação do usuário",
+				description: "Validar os usuários",
 				priority: "low",
 				deadline: 50,
-				image: taskImage,
-				alt: "task image",
+				tags: [
+					{ title: "Test", ...getRandomColors() },
+					{ title: "Front", ...getRandomColors() },
+				],
+			},
+			{
+				id: uuidv4(),
+				title: "Criar SCHEMA de tarefas",
+				description: "Esquema de tarefas",
+				priority: "low",
+				deadline: 50,
 				tags: [
 					{ title: "Test", ...getRandomColors() },
 					{ title: "Front", ...getRandomColors() },
@@ -69,12 +98,21 @@ export const Board: Columns = {
 		items: [
 			{
 				id: uuidv4(),
-				title: "Admin Panel Front-end",
-				description: "Lorem ipsum dolor sit amet ..",
+				title: "RF Requisitos Funcionais",
+				description: "Acessar os requisitos funcionais",
 				priority: "medium",
 				deadline: 50,
-				image: taskImage3,
-				alt: "task image",
+				tags: [
+					{ title: "Test", ...getRandomColors() },
+					{ title: "Front", ...getRandomColors() },
+				],
+			},
+			{
+				id: uuidv4(),
+				title: "RNF Requisitos não Funcionais",
+				description: "Acessar os requisitos não funcionais",
+				priority: "high",
+				deadline: 50,
 				tags: [
 					{ title: "Test", ...getRandomColors() },
 					{ title: "Front", ...getRandomColors() },
@@ -87,20 +125,9 @@ export const Board: Columns = {
 		items: [
 			{
 				id: uuidv4(),
-				title: "Admin Panel Front-end",
-				description: "Lorem ipsum dolor sit amet ..",
+				title: "RF - Tela de login",
+				description: "Criando a tela de login",
 				priority: "low",
-				deadline: 50,
-				tags: [
-					{ title: "Test", ...getRandomColors() },
-					{ title: "Front", ...getRandomColors() },
-				],
-			},
-			{
-				id: uuidv4(),
-				title: "Admin Panel Back-end",
-				description: "Lorem ipsum dolor sit amet ..",
-				priority: "medium",
 				deadline: 50,
 				tags: [
 					{ title: "Test", ...getRandomColors() },
@@ -114,12 +141,44 @@ export const Board: Columns = {
 		items: [
 			{
 				id: uuidv4(),
-				title: "Admin Panel Front-end",
-				description: "Lorem ipsum dolor sit amet ..",
+				title: "Criar um (CRUD)",
+				description: "Descrição",
 				priority: "high",
 				deadline: 50,
-				image: taskImage,
-				alt: "task image",
+				tags: [
+					{ title: "Test", ...getRandomColors() },
+					{ title: "Front", ...getRandomColors() },
+				],
+			},
+			{
+				id: uuidv4(),
+				title: "SCHEMA",
+				description: "Descrição",
+				priority: "high",
+				deadline: 50,
+				tags: [
+					{ title: "Test", ...getRandomColors() },
+					{ title: "Front", ...getRandomColors() },
+				],
+			},
+			{
+				id: uuidv4(),
+				title: "GET - Banco de dados",
+				description: "Banco de dados dos projetos",
+				priority: "high",
+				deadline: 50,
+				tags: [
+					{ title: "Test", ...getRandomColors() },
+					{ title: "Front", ...getRandomColors() },
+				],
+			},
+			{
+				id: uuidv4(),
+				title: "Criar um esquema de usuário",
+				description: "Esquema dos usuários",
+
+				priority: "high",
+				deadline: 50,
 				tags: [
 					{ title: "Test", ...getRandomColors() },
 					{ title: "Front", ...getRandomColors() },
