@@ -8,9 +8,16 @@ import {
 	PeopleOutline,
 	PieChartOutline,
 } from "react-ionicons";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+
 
 const Sidebar = () => {
+	const location = useLocation();
+
+// Verificar se a rota atual é a Home ("/")
+if (location.pathname === "/") {
+	return null; // Não renderiza o Navbar na Home
+}
 	const navLinks = [
 		{
 			title: "Início",
