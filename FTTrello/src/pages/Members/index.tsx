@@ -8,10 +8,10 @@ const Members = () => {
   const handleFilterClick = () => console.log("Filtrar membros");
 
   const members = [
-    { name: 'Arthur Caixeta', description: 'Desenvolvedor Front-end' },
+    { name: 'Arthur Caixeta', description: 'Desenvolvedor Front-end Jr' },
     { name: 'Gustavo Tavares', description: 'P.O.' },
     { name: 'João Pedro Barbosa', description: 'Desenvolvedor Back-end' },
-    { name: 'Luiz Antônio', description: 'Desenvolvedor Front-end' },
+    { name: 'Luiz Antônio', description: 'Desenvolvedor Front-end Jr' },
   ];
 
   const filteredMembers = members.filter((member) => member.name.toLowerCase().includes(filter.toLowerCase()));
@@ -86,6 +86,7 @@ const Members = () => {
               borderRadius: 15,
               cursor: 'pointer',
               marginLeft: 27,
+              margin: 42,
             }} onClick={() => setSelectedMember(member)}>
               <span style={{ marginLeft: 10, fontSize: 18, fontWeight: 'bold' }}>&#128100;</span>
               {member.name}
