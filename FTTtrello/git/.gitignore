@@ -12,6 +12,7 @@ logs/
 /dist/
 /dist-ssr/
 /.local/
+/package-lock.json
 
 # Diretórios e arquivos do editor
 /.vscode/
