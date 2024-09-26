@@ -46,6 +46,7 @@ function KanbanBoard() {
 					display: 'inline-block',
 					width: 'auto',
 					height: 'auto',
+					verticalAlign: "top",
 				}}
 				>
 				<h1 style={{ marginBottom: 10 }}>{list.title}</h1>
