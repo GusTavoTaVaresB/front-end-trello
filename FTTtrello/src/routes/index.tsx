@@ -5,7 +5,6 @@ import Home from "../pages/Home";
 import Projects from "../pages/Projects";
 import Analysis from "../pages/Analysis";
 import Members from "../pages/Members";
-import Notifications from "../pages/Notifications";
 import Calendar from "../pages/Calendar";
 
 const routes: RouteObject[] = [
@@ -32,10 +31,6 @@ const routes: RouteObject[] = [
 			{
 				path: "membros",
 				element: <Members />,
-			},
-			{
-				path: "notificacoes",
-				element: <Notifications />,
 			},
 			{
 				path: "calendario",
