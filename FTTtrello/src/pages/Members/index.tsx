@@ -20,7 +20,7 @@ const Members = () => {
         setSelectedMember(null);
     };
 
-    const colors = ['#FF69B4', '#33CC33', '#6666CC', '#CC3333'];
+    const colors = ['#FF5F00', '#FFFAE6', '#00237980', '#FFDA78'];
 
     const filteredMembers = [
         { name: 'Arthur Caixeta', description: 'Desenvolvedor Front-end' },

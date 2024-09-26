@@ -1,12 +1,8 @@
 import {
 	AppsOutline,
-	GridOutline,
-	HomeOutline,
 	LogOutOutline,
 	NewspaperOutline,
-	NotificationsOutline,
 	PeopleOutline,
-	PieChartOutline,
 } from "react-ionicons";
 import { Link, useLocation } from "react-router-dom";
 
@@ -20,17 +16,6 @@ if (location.pathname === "/") {
 }
 	const navLinks = [
 		{
-			title: "Início",
-			icon: (
-				<HomeOutline
-					color="#555"
-					width="22px"
-					height="22px"
-				/>
-			),
-			to: "/",
-		},
-		{
 			title: "Quadros",
 			icon: (
 				<AppsOutline
@@ -42,28 +27,6 @@ if (location.pathname === "/") {
 			to: "/quadros",
 		},
 		{
-			title: "Projetos",
-			icon: (
-				<GridOutline
-					color="#555"
-					width="22px"
-					height="22px"
-				/>
-			),
-			to: "/projetos",
-		},
-		{
-			title: "Análise",
-			icon: (
-				<PieChartOutline
-					color="#555"
-					width="22px"
-					height="22px"
-				/>
-			),
-			to: "/analise",
-		},
-		{
 			title: "Membros",
 			icon: (
 				<PeopleOutline
@@ -73,17 +36,6 @@ if (location.pathname === "/") {
 				/>
 			),
 			to: "/membros",
-		},
-		{
-			title: "Notificações",
-			icon: (
-				<NotificationsOutline
-					color="#555"
-					width="22px"
-					height="22px"
-				/>
-			),
-			to: "/notificacoes",
 		},
 		{
 			title: "Calendário",
