@@ -7,7 +7,7 @@ const Layout = () => {
 		<div className="w-screen h-screen relative">
 			<Sidebar />
 			<Navbar />
-			<div className="md:pl-[250px] pl-[60px] pr-[20px] pt-[70px] w-full h-full overflow-y-auto">
+			<div className="md:pl-[220px] pl-[60px] pr-[0px] pt-[70px] w-full h-full overflow-y-auto">
 				<Outlet />
 			</div>
 		</div>
