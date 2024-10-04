@@ -106,6 +106,7 @@ function KanbanBoard() {
 		<div className="kanban-board" style={{ backgroundColor: 'white', padding: 20, height: '100%', width: '100%' }}>
 			{lists.map((list, listIndex) => (
 				<div
+<<<<<<< HEAD
 					key={list.title}
 					className="list"
 					style={{
@@ -117,6 +118,19 @@ function KanbanBoard() {
 						width: 'auto',
 						height: 'auto',
 					}}
+=======
+				key={list.title}
+				className="list"
+				style={{
+					padding: 10,
+					borderRadius: 10,
+					backgroundColor: '#FFFAE6',
+					display: 'inline-block',
+					width: 'auto',
+					height: 'auto',
+					verticalAlign: "top",
+				}}
+>>>>>>> 9d6e191490759c45fc3ff44e73e2e14e3546cf4d
 				>
 					<h1 style={{ marginBottom: 10 }}>{list.title}</h1>
 					<ul>
